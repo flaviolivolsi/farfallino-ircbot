@@ -6,7 +6,6 @@ var client = new irc.Client('irc.freenode.net', 'farfallino', {
 });
 
 client.addListener('message', function (from, to, message) {
-    console.log(farfallino.transform(message));
     client.say(to, farfallino.transform(message));
 });
 
