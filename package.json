@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "irc": "^0.4.1",
-    "flv-symbols": "git://github.com/flaviolivolsi/symbols.git"
+    "flv-symbols": "git://github.com/flaviolivolsi/symbols.git",
+    "farfallino-translator": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {

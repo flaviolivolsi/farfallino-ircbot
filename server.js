@@ -1,5 +1,5 @@
 var irc = require('irc');
-var farfallino = require('./farfallino');
+var farfallino = require('farfallino-translator');
 
 var client = new irc.Client('irc.freenode.net', 'farfallino', {
     channels: ['#flvbot'],
